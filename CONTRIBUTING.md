@@ -39,3 +39,16 @@ The preferred way to contribute is to fork the
 ### GitHub Pull Requests Docs
 
 If you are not familiar with pull requests, review the [pull request docs](https://help.github.com/articles/using-pull-requests/).
+
+Ensure your pull request satisfies all of the following, where applicable:
+
+* Is covered by unit tests.
+* Passes continuous integration.
+* Is covered by documentation with comments and docstrings.
+
+Review the following [style guide](https://google.github.io/styleguide/pyguide.html).
+
+Run code checks and fix any issues:
+
+    $ scripts/run_code_checks.sh
+
